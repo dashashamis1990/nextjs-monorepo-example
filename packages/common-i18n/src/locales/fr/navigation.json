@@ -1,5 +1,8 @@
 {
   "topNav": {
     "home": "Home"
+  },
+  "footer": {
+    "pricing": "Tarifs"
   }
 }
