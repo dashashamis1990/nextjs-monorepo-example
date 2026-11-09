@@ -1,6 +1,10 @@
 import { getSortedI18nNamespaces } from '@/lib/i18n/getSortedI18nNamespaces';
 
-const i18nNamespaces = getSortedI18nNamespaces(['common', 'demo']);
+const i18nNamespaces = getSortedI18nNamespaces([
+  'common',
+  'demo',
+  'navigation',
+]);
 
 export type DemoConfig = {
   i18nNamespaces: typeof i18nNamespaces;
